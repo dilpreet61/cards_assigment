@@ -1,0 +1,23 @@
+body {
+    background-color: #c6ddf5;
+    font-family:monospace
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    width: 250px;
+   
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #030303;
+}
